@@ -1,7 +1,11 @@
 .board {
 	display: grid;
+	justify-content: center;
 	grid-template-columns: repeat(3, 110px);
 	grid-template-rows: repeat(3, 110px);
+	gap: 16px;
+	padding: 20px;
+	margin-bottom: 32px;
 	border: 1px solid #ff00cc;
 }
 
@@ -12,4 +16,25 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
+}
+
+.logo {
+	width: 60px;
+	height: 60px;
+	object-fit: contain;
+	filter: drop-shadow(0 0 5px cyan);
+}
+
+.emptyCell {
+	width: 60px;
+	height: 60px;
+	display: block;
+	background: repeating-linear-gradient(
+		45deg,
+		#0afff020,
+		#0afff020 10px,
+		#ff00cc20 10px,
+		#ff00cc20 20px
+	);
+	border-radius: 12px;
 }

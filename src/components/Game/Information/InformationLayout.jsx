@@ -13,7 +13,7 @@ const InformationLayout = ({ currentPlayer, isGameEnded, isDraw }) => {
 
 	return (
 		<div className={styles.information}>
-			<div className={styles.status}>{getStatusText}</div>
+			<div className={styles.status}>{getStatusText()}</div>
 		</div>
 	);
 };

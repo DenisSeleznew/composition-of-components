@@ -3,7 +3,10 @@
 }
 
 .status {
-	padding: 30px 180px;
+	text-align: center;
+	font-size: 24px;
+	color: #0afff0;
+	padding: 10px 20px;
 	background: #0a101f;
 	border: 1px solid #0afff0;
 	border-radius: 12px;
