@@ -1,0 +1,15 @@
+.board {
+	display: grid;
+	grid-template-columns: repeat(3, 110px);
+	grid-template-rows: repeat(3, 110px);
+	border: 1px solid #ff00cc;
+}
+
+.cell {
+	background: #07121f;
+	border: 2px solid #00f2ff;
+	border-radius: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}

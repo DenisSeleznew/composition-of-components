@@ -1,0 +1,14 @@
+.information {
+	margin-bottom: 32px;
+}
+
+.status {
+	padding: 30px 180px;
+	background: #0a101f;
+	border: 1px solid #0afff0;
+	border-radius: 12px;
+	display: inline-block;
+	width: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
