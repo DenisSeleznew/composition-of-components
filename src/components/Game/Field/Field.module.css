@@ -4,9 +4,12 @@
 	grid-template-columns: repeat(3, 110px);
 	grid-template-rows: repeat(3, 110px);
 	gap: 16px;
+	background: black;
 	padding: 20px;
+	border-radius: 24px;
 	margin-bottom: 32px;
 	border: 1px solid #ff00cc;
+	box-shadow: 0 0 15px #ff00cc;
 }
 
 .cell {
@@ -16,18 +19,32 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	cursor: pointer;
+	transition: all 0.3s ease-in;
+	box-shadow: 0 0 10px #00f2ff;
+}
+
+.cell:hover {
+	background: black;
+	border-color: #ff00cc;
+	box-shadow: 0 0 15px #ff00cc;
+	transform: scale(1.05);
+}
+
+.cell:active {
+	transform: scale(0.95);
 }
 
 .logo {
-	width: 60px;
-	height: 60px;
+	width: 100px;
+	height: 100px;
 	object-fit: contain;
 	filter: drop-shadow(0 0 5px cyan);
 }
 
 .emptyCell {
-	width: 60px;
-	height: 60px;
+	width: 80px;
+	height: 80px;
 	display: block;
 	background: repeating-linear-gradient(
 		45deg,

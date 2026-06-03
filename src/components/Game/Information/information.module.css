@@ -6,6 +6,7 @@
 	text-align: center;
 	font-size: 24px;
 	color: #0afff0;
+	font-weight: bold;
 	padding: 10px 20px;
 	background: #0a101f;
 	border: 1px solid #0afff0;
@@ -14,4 +15,6 @@
 	width: auto;
 	margin-left: auto;
 	margin-right: auto;
+	text-shadow: 0 0 4px #0afff0;
+	box-shadow: 0 0 8px #0afff0 inset;
 }

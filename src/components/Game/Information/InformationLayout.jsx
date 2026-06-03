@@ -6,9 +6,9 @@ const InformationLayout = ({ currentPlayer, isGameEnded, isDraw }) => {
 		if (isDraw) return 'НИЧЬЯ';
 
 		if (isGameEnded) {
-			return `ПОБЕДА ${currentPlayer === 'X' ? '❌ КРЕСТИК' : '⭕ НОЛИК'}`;
+			return `ПОБЕДА: ${currentPlayer === 'X' ? '❌ КРЕСТИК' : '⭕ НОЛИК'}`;
 		}
-		return `ХОДИТ ${currentPlayer === 'X' ? ' ❌ КРЕСТИК' : ' ⭕ НОЛИК'}`;
+		return `ХОДИТ: ${currentPlayer === 'X' ? ' ❌ КРЕСТИК' : ' ⭕ НОЛИК'}`;
 	};
 
 	return (
